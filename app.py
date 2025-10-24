@@ -24,7 +24,7 @@ uploaded_file = st.file_uploader(
 )
 
 if uploaded_file is not None:
-    st.image(uploaded_file, caption="Voici ta tête actuelle 😏", use_container_width=True)
+    st.image(uploaded_file, caption="Voici ta tête actuelle 😏", use_column_width=True)
     
     if st.button("✨ Obtenir la recommandation magique ✨"):
         with st.spinner("Jean-Michel observe ta chevelure sous toutes les coutures... 💭"):
