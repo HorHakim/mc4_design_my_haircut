@@ -2,3 +2,5 @@ mistralai
 python-dotenv
 requests
 pybase64
+pillow
+streamlit
